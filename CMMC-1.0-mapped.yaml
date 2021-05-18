@@ -1,0 +1,655 @@
+name: CMMC-1.0-mapped
+standards:
+  CMMC-1.0:
+    AC.1.001:
+      mapping:
+        NIST-800-53:
+        - AC-2
+        - AC-3
+        - AC-17
+    AC.1.002:
+      mapping:
+        NIST-800-53:
+        - AC-2
+        - AC-3
+        - AC-17
+    AC.1.003:
+      mapping:
+        NIST-800-53:
+        - AC-20
+        - AC-20 (1)
+    AC.1.004:
+      mapping:
+        NIST-800-53:
+        - AC-22
+    AC.2.005:
+      mapping:
+        NIST-800-53:
+        - AC-8
+    AC.2.006:
+      mapping:
+        NIST-800-53:
+        - AC-20 (2)
+    AC.2.007:
+      mapping:
+        NIST-800-53:
+        - AC-6
+        - AC-6 (1)
+        - AC-6 (5)
+    AC.2.008:
+      mapping:
+        NIST-800-53:
+        - AC-6 (2)
+    AC.2.009:
+      mapping:
+        NIST-800-53:
+        - AC-7
+    AC.2.010:
+      mapping:
+        NIST-800-53:
+        - AC-11
+        - AC-11 (1)
+    AC.2.011:
+      mapping:
+        NIST-800-53:
+        - AC-18
+    AC.2.013:
+      mapping:
+        NIST-800-53:
+        - AC-17 (1)
+    AC.2.015:
+      mapping:
+        NIST-800-53:
+        - AC-17 (3)
+    AC.2.016:
+      mapping:
+        NIST-800-53:
+        - AC-4
+    AC.3.012:
+      mapping:
+        NIST-800-53:
+        - AC-18 (1)
+    AC.3.014:
+      mapping:
+        NIST-800-53:
+        - AC-17 (2)
+    AC.3.017:
+      mapping:
+        NIST-800-53:
+        - AC-5
+    AC.3.018:
+      mapping:
+        NIST-800-53:
+        - AC-6 (9)
+        - AC-6 (10)
+    AC.3.019:
+      mapping:
+        NIST-800-53:
+        - AC-12
+    AC.3.020:
+      mapping:
+        NIST-800-53:
+        - AC-19
+    AC.3.021:
+      mapping:
+        NIST-800-53:
+        - AC-17 (4)
+    AC.3.022:
+      mapping:
+        NIST-800-53:
+        - AC-19 (5)
+    AC.4.023:
+      mapping:
+        NIST-800-53:
+        - AC-4
+        - AC-4 (1)
+        - AC-4 (6)
+        - AC-4 (8)
+        - AC-4 (12)
+        - AC-4 (13)
+        - AC-4 (15)
+        - AC-4 (20)
+    AC.5.024:
+      mapping:
+        NIST-800-53:
+        - SI-4 (14)
+    AM.4.226:
+      mapping:
+        NIST-800-53:
+        - CM-8
+    AT.2.056:
+      mapping:
+        NIST-800-53:
+        - AT-2
+        - AT-3
+    AT.2.057:
+      mapping:
+        NIST-800-53:
+        - AT-2
+        - AT-3
+    AT.3.058:
+      mapping:
+        NIST-800-53:
+        - AT-2 (2)
+    AT.4.059:
+      mapping:
+        NIST-800-53:
+        - AT-2
+    AT.4.060:
+      mapping:
+        NIST-800-53:
+        - AT-2 (1)
+    AU.2.041:
+      mapping:
+        NIST-800-53:
+        - AU-2
+        - AU-3
+        - AU-3 (1)
+        - AU-6
+        - AU-11
+        - AU-12
+    AU.2.042:
+      mapping:
+        NIST-800-53:
+        - AU-2
+        - AU-3
+        - AU-3 (1)
+        - AU-6
+        - AU-11
+        - AU-12
+    AU.2.043:
+      mapping:
+        NIST-800-53:
+        - AU-8
+        - AU-8 (1)
+    AU.2.044:
+      mapping:
+        NIST-800-53:
+        - AU-6
+    AU.3.045:
+      mapping:
+        NIST-800-53:
+        - AU-2 (3)
+    AU.3.046:
+      mapping:
+        NIST-800-53:
+        - AU-5
+    AU.3.048:
+      mapping:
+        NIST-800-53:
+        - AU-6 (4)
+    AU.3.049:
+      mapping:
+        NIST-800-53:
+        - AU-6 (7)
+        - AU-9
+    AU.3.050:
+      mapping:
+        NIST-800-53:
+        - AU-6 (7)
+        - AU-9 (4)
+    AU.3.051:
+      mapping:
+        NIST-800-53:
+        - AU-6 (3)
+    AU.3.052:
+      mapping:
+        NIST-800-53:
+        - AU-7
+    AU.4.053:
+      mapping:
+        NIST-800-53:
+        - SI-4 (2)
+    AU.4.054:
+      mapping:
+        NIST-800-53:
+        - RA-5 (6)
+        - RA-5 (8)
+        - RA-5 (10)
+    AU.5.055:
+      mapping:
+        NIST-800-53:
+        - AU-12
+    CA.2.157:
+      mapping:
+        NIST-800-53:
+        - PL-2
+    CA.2.158:
+      mapping:
+        NIST-800-53:
+        - CA-2
+    CA.2.159:
+      mapping:
+        NIST-800-53:
+        - CA-5
+    CA.3.161:
+      mapping:
+        NIST-800-53:
+        - CA-7
+    CA.4.163:
+      mapping:
+        NIST-800-53:
+        - PL-1
+    CA.4.164:
+      mapping:
+        NIST-800-53:
+        - CA-8
+    CA.4.227:
+      mapping:
+        NIST-800-53:
+        - CA-8 (2)
+    CM.2.061:
+      mapping:
+        NIST-800-53:
+        - CM-2
+        - CM-6
+        - CM-8
+        - CM-8 (1)
+    CM.2.062:
+      mapping:
+        NIST-800-53:
+        - CM-7
+    CM.2.063:
+      mapping:
+        NIST-800-53:
+        - CM-11
+    CM.2.064:
+      mapping:
+        NIST-800-53:
+        - CM-2
+        - CM-6
+        - CM-8
+        - CM-8 (1)
+    CM.2.065:
+      mapping:
+        NIST-800-53:
+        - CM-3
+    CM.2.066:
+      mapping:
+        NIST-800-53:
+        - CM-4
+    CM.3.067:
+      mapping:
+        NIST-800-53:
+        - CM-5
+    CM.3.068:
+      mapping:
+        NIST-800-53:
+        - CM-7 (1)
+        - CM-7 (2)
+    CM.3.069:
+      mapping:
+        NIST-800-53:
+        - CM-7 (4)
+        - CM-7 (5)
+    CM.4.073:
+      mapping:
+        NIST-800-53:
+        - CM-7 (4)
+        - CM-7 (5)
+    CM.5.074:
+      mapping:
+        NIST-800-53:
+        - SI-7 (6)
+        - SI-7 (9)
+        - SI-7 (10)
+        - SA-17
+    IA.1.076:
+      mapping:
+        NIST-800-53:
+        - IA-2
+        - IA-3
+        - IA-5
+    IA.1.077:
+      mapping:
+        NIST-800-53:
+        - IA-2
+        - IA-3
+        - IA-5
+    IA.2.078:
+      mapping:
+        NIST-800-53:
+        - IA-5 (1)
+    IA.2.079:
+      mapping:
+        NIST-800-53:
+        - IA-5 (1)
+    IA.2.080:
+      mapping:
+        NIST-800-53:
+        - IA-5 (1)
+    IA.2.081:
+      mapping:
+        NIST-800-53:
+        - IA-5 (1)
+    IA.2.082:
+      mapping:
+        NIST-800-53:
+        - IA-6
+    IA.3.083:
+      mapping:
+        NIST-800-53:
+        - IA-2 (1)
+        - IA-2 (2)
+        - IA-2 (3)
+    IA.3.084:
+      mapping:
+        NIST-800-53:
+        - IA-2 (8)
+        - IA-2 (9)
+    IA.3.085:
+      mapping:
+        NIST-800-53:
+        - IA-4
+    IA.3.086:
+      mapping:
+        NIST-800-53:
+        - IA-4
+    IR.2.092:
+      mapping:
+        NIST-800-53:
+        - IR-2
+        - IR-4
+    IR.2.093:
+      mapping:
+        NIST-800-53:
+        - IR-6
+    IR.2.094:
+      mapping:
+        NIST-800-53:
+        - IR-4 (3)
+    IR.2.096:
+      mapping:
+        NIST-800-53:
+        - IR-4
+    IR.2.097:
+      mapping:
+        NIST-800-53:
+        - AU-2
+    IR.3.098:
+      mapping:
+        NIST-800-53:
+        - IR-6
+        - IR-7
+    IR.3.099:
+      mapping:
+        NIST-800-53:
+        - IR-3
+    IR.5.102:
+      mapping:
+        NIST-800-53:
+        - IR-4 (1)
+    IR.5.106:
+      mapping:
+        NIST-800-53:
+        - AU-12
+    MA.2.111:
+      mapping:
+        NIST-800-53:
+        - MA-2
+    MA.2.112:
+      mapping:
+        NIST-800-53:
+        - MA-3
+    MA.2.113:
+      mapping:
+        NIST-800-53:
+        - MA-4
+    MA.2.114:
+      mapping:
+        NIST-800-53:
+        - MA-5
+    MA.3.115:
+      mapping:
+        NIST-800-53:
+        - MA-2
+    MA.3.116:
+      mapping:
+        NIST-800-53:
+        - MA-3 (2)
+    MP.1.118:
+      mapping:
+        NIST-800-53:
+        - MP-6
+    MP.2.119:
+      mapping:
+        NIST-800-53:
+        - MP-4
+    MP.2.120:
+      mapping:
+        NIST-800-53:
+        - MP-2
+    MP.2.121:
+      mapping:
+        NIST-800-53:
+        - MP-7
+    MP.3.122:
+      mapping:
+        NIST-800-53:
+        - MP-3
+    MP.3.123:
+      mapping:
+        NIST-800-53:
+        - MP-7 (1)
+    MP.3.124:
+      mapping:
+        NIST-800-53:
+        - MP-5
+    MP.3.125:
+      mapping:
+        NIST-800-53:
+        - MP-5 (4)
+    PE.1.131:
+      mapping:
+        NIST-800-53:
+        - PE-2
+    PE.1.132:
+      mapping:
+        NIST-800-53:
+        - PE-3
+    PE.1.133:
+      mapping:
+        NIST-800-53:
+        - PE-3
+    PE.1.134:
+      mapping:
+        NIST-800-53:
+        - PE-3
+    PE.2.135:
+      mapping:
+        NIST-800-53:
+        - PE-6
+    PE.3.136:
+      mapping:
+        NIST-800-53:
+        - PE-17
+    PS.2.127:
+      mapping:
+        NIST-800-53:
+        - PS-3
+    PS.2.128:
+      mapping:
+        NIST-800-53:
+        - PS-4
+        - PS-5
+    RE.2.137:
+      mapping:
+        NIST-800-53:
+        - CP-9
+    RE.2.138:
+      mapping:
+        NIST-800-53:
+        - CP-9
+    RE.3.139:
+      mapping:
+        NIST-800-53:
+        - CP-9
+        - CP-9 (3)
+    RE.5.140:
+      mapping:
+        NIST-800-53:
+        - CP-10
+    RM.2.141:
+      mapping:
+        NIST-800-53:
+        - RA-3
+    RM.2.142:
+      mapping:
+        NIST-800-53:
+        - RA-5
+    RM.2.143:
+      mapping:
+        NIST-800-53:
+        - RA-5
+    RM.3.144:
+      mapping:
+        NIST-800-53:
+        - RA-3
+    RM.3.146:
+      mapping:
+        NIST-800-53:
+        - PM-9
+    RM.3.147:
+      mapping:
+        NIST-800-53:
+        - SA-22 (1)
+    RM.4.148:
+      mapping:
+        NIST-800-53:
+        - SA-12
+    SA.3.169:
+      mapping:
+        NIST-800-53:
+        - PM-16
+    SA.4.171:
+      mapping:
+        NIST-800-53:
+        - PM-16
+    SA.4.173:
+      mapping:
+        NIST-800-53:
+        - SI-4 (24)
+    SC.1.175:
+      mapping:
+        NIST-800-53:
+        - SC-7
+    SC.1.176:
+      mapping:
+        NIST-800-53:
+        - SC-7
+    SC.2.178:
+      mapping:
+        NIST-800-53:
+        - SC-15
+    SC.3.177:
+      mapping:
+        NIST-800-53:
+        - SC-13
+    SC.3.180:
+      mapping:
+        NIST-800-53:
+        - SA-8
+    SC.3.181:
+      mapping:
+        NIST-800-53:
+        - SC-2
+    SC.3.182:
+      mapping:
+        NIST-800-53:
+        - SC-4
+    SC.3.183:
+      mapping:
+        NIST-800-53:
+        - SC-7 (5)
+    SC.3.184:
+      mapping:
+        NIST-800-53:
+        - SC-7 (7)
+    SC.3.185:
+      mapping:
+        NIST-800-53:
+        - SC-8 (1)
+    SC.3.186:
+      mapping:
+        NIST-800-53:
+        - SC-10
+    SC.3.187:
+      mapping:
+        NIST-800-53:
+        - SC-12
+    SC.3.188:
+      mapping:
+        NIST-800-53:
+        - SC-18
+    SC.3.189:
+      mapping:
+        NIST-800-53:
+        - SC-19
+    SC.3.190:
+      mapping:
+        NIST-800-53:
+        - SC-23
+    SC.3.191:
+      mapping:
+        NIST-800-53:
+        - SC-28
+    SC.3.192:
+      mapping:
+        NIST-800-53:
+        - SC-20
+    SC.4.202:
+      mapping:
+        NIST-800-53:
+        - SC-44
+    SC.4.228:
+      mapping:
+        NIST-800-53:
+        - SA-8
+    SC.5.230:
+      mapping:
+        NIST-800-53:
+        - SC-7 (17)
+    SI.1.210:
+      mapping:
+        NIST-800-53:
+        - SI-2
+    SI.1.211:
+      mapping:
+        NIST-800-53:
+        - SI-3
+    SI.1.212:
+      mapping:
+        NIST-800-53:
+        - SI-3
+    SI.1.213:
+      mapping:
+        NIST-800-53:
+        - SI-3
+    SI.2.214:
+      mapping:
+        NIST-800-53:
+        - SI-5
+    SI.2.216:
+      mapping:
+        NIST-800-53:
+        - SI-4
+    SI.2.217:
+      mapping:
+        NIST-800-53:
+        - SI-4
+    SI.3.218:
+      mapping:
+        NIST-800-53:
+        - SI-8
+    SI.3.219:
+      mapping:
+        NIST-800-53:
+        - SC-8
+    SI.3.220:
+      mapping:
+        NIST-800-53:
+        - SC-44
+    SI.5.223:
+      mapping:
+        NIST-800-53:
+        - SI-4

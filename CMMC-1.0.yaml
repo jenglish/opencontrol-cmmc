@@ -1,0 +1,1001 @@
+AC.1.001:
+  description: 'References: FAR Clause 52.204-21 b.1.i; NIST SP 800-171 Rev 1 3.1.1;
+    CIS Controls v7.1 1.4, 1.6, 5.1, 14.6, 15.10, 16.8, 16.9, 16.11; NIST CSF v1.1
+    PR.AC-1, PR.AC-3, PR.AC-4, PR.AC-6, PR.PT-3, PR.PT-4; CERT RMM v1.2 TM:SG4.SP1;
+    NIST SP 800-53 Rev 4 AC-2, AC-3, AC-17; AU ACSC Essential Eight'
+  family: Access Control (AC)
+  name: Limit information system access to authorized users, processes acting on behalf
+    of authorized users, or devices (including other information systems).
+AC.1.002:
+  description: 'References: FAR Clause 52.204-21 b.1.ii; NIST SP 800-171 Rev 1 3.1.2;
+    CIS Controls v7.1 1.4, 1.6, 5.1, 8.5, 14.6, 15.10, 16.8, 16.9, 16.11; NIST CSF
+    v1.1 PR.AC-1, PR.AC-3, PR.AC-4, PR.AC-6, PR.PT-3, PR.PT-4; CERT RMM v1.2 TM:SG4.SP1;
+    NIST SP 800-53 Rev 4 AC-2, AC-3, AC-17'
+  family: Access Control (AC)
+  name: 'Limit information system access to the types of transactions and functions
+    that authorized users are permitted to execute. '
+AC.1.003:
+  description: 'References: FAR Clause 52.204-21 b.1.iii; NIST SP 800-171 Rev 1 3.1.20;
+    CIS Controls v7.1 12.1, 12.4; NIST CSF v1.1 ID.AM-4, PR.AC-3; CERT RMM v1.2 EXD:SG3.SP1;
+    NIST SP 800-53 Rev 4 AC-20, AC-20(1)'
+  family: Access Control (AC)
+  name: 'Verify and control/limit connections to and use of external information systems. '
+AC.1.004:
+  description: 'References: FAR Clause 52.204-21 b.1.iv; NIST SP 800-171 Rev 1 3.1.22;
+    NIST SP 800-53 Rev 4 AC-22'
+  family: Access Control (AC)
+  name: Control information posted or processed on publicly accessible information
+    systems.
+AC.2.005:
+  description: 'References: NIST SP 800-171 Rev 1 3.1.9; NIST SP 800-53 Rev 4 AC-8'
+  family: Access Control (AC)
+  name: Provide privacy and security notices consistent with applicable CUI rules.
+AC.2.006:
+  description: 'References: NIST SP 800-171 Rev 1 3.1.21; CIS Controls v7.1 13.7,
+    13.8, 13.9; NIST CSF v1.1 ID.AM-4, PR.PT-2; NIST SP 800-53 Rev 4 AC-20(2)'
+  family: Access Control (AC)
+  name: 'Limit use of portable storage devices on external systems. '
+AC.2.007:
+  description: 'References: NIST SP 800-171 Rev 1 3.1.5; CIS Controls v7.1 14.6; NIST
+    CSF v1.1 PR.AC-4; CERT RMM v1.2 KIM:SG4.SP1; NIST SP 800-53 Rev 4 AC-6, AC-6(1),
+    AC-6(5); UK NCSC Cyber Essentials'
+  family: Access Control (AC)
+  name: Employ the principle of least privilege, including for specific security functions
+    and privileged accounts.
+AC.2.008:
+  description: 'References: NIST SP 800-171 Rev 1 3.1.6; CIS Controls v7.1 4.3, 4.6;
+    NIST CSF v1.1 PR.AC-4; NIST SP 800-53 Rev 4 AC-6(2); UK NCSC Cyber Essentials'
+  family: Access Control (AC)
+  name: Use non-privileged accounts or roles when accessing nonsecurity functions.
+AC.2.009:
+  description: 'References: NIST SP 800-171 Rev 1 3.1.8 ; NIST CSF v1.1 PR.AC-7; NIST
+    SP 800-53 Rev 4 AC-7'
+  family: Access Control (AC)
+  name: 'Limit unsuccessful logon attempts. '
+AC.2.010:
+  description: 'References: NIST SP 800-171 Rev 1 3.1.10; CIS Controls v7.1 16.11;
+    NIST SP 800-53 Rev 4 AC-11, AC-11(1)'
+  family: Access Control (AC)
+  name: 'Use session lock with pattern-hiding displays to prevent access and viewing
+    of data after a period of inactivity. '
+AC.2.011:
+  description: 'References: NIST SP 800-171 Rev 1 3.1.16; CIS Controls v7.1 15.1,
+    15.10; NIST CSF v1.1 PR.PT-4; CERT RMM v1.2 TM:SG2.SP2; NIST SP 800-53 Rev 4 AC-18'
+  family: Access Control (AC)
+  name: Authorize wireless access prior to allowing such connections.
+AC.2.013:
+  description: 'References: NIST SP 800-171 Rev 1 3.1.12; CIS Controls v7.1 12.11,
+    12.12; NIST CSF v1.1 PR.AC-3, PR.PT-4; CERT RMM v1.2 TM:SG2.SP2; NIST SP 800-53
+    Rev 4 AC-17(1)'
+  family: Access Control (AC)
+  name: Monitor and control remote access sessions.
+AC.2.015:
+  description: 'References: NIST SP 800-171 Rev 1 3.1.14; CIS Controls v7.1 15.5,
+    15.10; NIST CSF v1.1 PR.AC-3, PR.PT-4; CERT RMM v1.2 TM:SG2.SP2; NIST SP 800-53
+    Rev 4 AC-17(3)'
+  family: Access Control (AC)
+  name: 'Route remote access via managed access control points. '
+AC.2.016:
+  description: 'References: NIST SP 800-171 Rev 1 3.1.3; CIS Controls v7.1 12.1, 12.2,
+    12.5, 12.8, 13.3, 14.1, 14.6, 14.7; NIST CSF v1.1 ID.AM-3, PR.AC-5, PR.DS-5, PR.PT-4;
+    CERT RMM v1.2 TM:SG4.SP1; NIST SP 800-53 Rev 4 AC-4; UK NCSC Cyber Essentials'
+  family: Access Control (AC)
+  name: 'Control the flow of CUI in accordance with approved authorizations. '
+AC.3.012:
+  description: 'References: NIST SP 800-171 Rev 1 3.1.17; CIS Controls v7.1 15.7,
+    15.8; NIST CSF v1.1 PR.PT-4; CERT RMM v1.2 KIM:SG4.SP1; NIST SP 800-53 Rev 4 AC-18(1)'
+  family: Access Control (AC)
+  name: 'Protect wireless access using authentication and encryption. '
+AC.3.014:
+  description: 'References: NIST SP 800-171 Rev 1 3.1.13; CIS Controls v7.1 15.7,
+    15.8; NIST CSF v1.1 PR.AC-3, PR.PT-4; CERT RMM v1.2 KIM:SG4.SP1; NIST SP 800-53
+    Rev 4 AC-17(2)'
+  family: Access Control (AC)
+  name: Employ cryptographic mechanisms to protect the confidentiality of remote access
+    sessions.
+AC.3.017:
+  description: 'References: NIST SP 800-171 Rev 1 3.1.4; NIST CSF v1.1 PR.AC-4; NIST
+    SP 800-53 Rev 4 AC-5'
+  family: Access Control (AC)
+  name: 'Separate the duties of individuals to reduce the risk of malevolent activity
+    without collusion. '
+AC.3.018:
+  description: 'References: NIST SP 800-171 Rev 1 3.1.7; NIST CSF v1.1 PR.AC-4; CERT
+    RMM v1.2 KIM:SG4.SP1; NIST SP 800-53 Rev 4 AC-6(9), AC-6(10)'
+  family: Access Control (AC)
+  name: Prevent non-privileged users from executing privileged functions and capture
+    the execution of such functions in audit logs.
+AC.3.019:
+  description: 'References: NIST SP 800-171 Rev 1 3.1.11; CIS Controls v7.1 16.7,
+    16.11; NIST SP 800-53 Rev 4 AC-12'
+  family: Access Control (AC)
+  name: Terminate (automatically) user sessions after a defined condition.
+AC.3.020:
+  description: 'References: NIST SP 800-171 Rev 1 3.1.18; CIS Controls v7.1 13.6,
+    16.7; NIST CSF v1.1 PR.AC-3, PR.AC-6; CERT RMM v1.2 TM:SG2.SP2; NIST SP 800-53
+    Rev 4 AC-19; UK NCSC Cyber Essentials'
+  family: Access Control (AC)
+  name: Control connection of mobile devices.
+AC.3.021:
+  description: 'References: NIST SP 800-171 Rev 1 3.1.15; CIS Controls v7.1 8.8, 12.11,
+    12.12; NIST CSF v1.1 PR.AC-3, PR.PT-4; CERT RMM v1.2 TM:SG2.SP2; NIST SP 800-53
+    Rev 4 AC-17(4)'
+  family: Access Control (AC)
+  name: 'Authorize remote execution of privileged commands and remote access to security-relevant
+    information. '
+AC.3.022:
+  description: 'References: NIST SP 800-171 Rev 1 3.1.19; CIS Controls v7.1 13.6;
+    NIST CSF v1.1 PR.AC-3; CERT RMM v1.2 KIM:SG4.SP1; NIST SP 800-53 Rev 4 AC-19(5)'
+  family: Access Control (AC)
+  name: 'Encrypt CUI on mobile devices and mobile computing platforms. '
+AC.4.023:
+  description: 'References: CMMC modification of Draft NIST SP 800-171B 3.1.3e ; CIS
+    Controls v7.1 12.1, 12.2, 13.1, 13.3, 14.1, 14.2, 14.5, 14.6, 14.7, 15.6, 15.10;
+    NIST CSF v1.1 ID.AM-3, PR.AC-5, PR.DS-5, PR.PT-4, DE.AE-1; NIST SP 800-53 Rev
+    4 AC-4, AC-4(1), AC-4(6), AC-4(8), AC-4(12), AC-4(13), AC-4(15), AC-4(20)'
+  family: Access Control (AC)
+  name: Control information flows between security domains on connected systems.
+AC.4.025:
+  description: 'References: CMMC'
+  family: Access Control (AC)
+  name: Periodically review and update CUI program access permissions.
+AC.4.032:
+  description: 'References: CMMC'
+  family: Access Control (AC)
+  name: Restrict remote network access based on organizationally defined risk factors
+    such as time of day, location of access, physical location, network connection
+    state, and measured properties of the current user and role.
+AC.5.024:
+  description: 'References: CMMC; CIS Controls v7.1 15.3; NIST CSF v1.1 PR.DS-5, DE.AE-1,
+    DE.CM-7; NIST SP 800-53 Rev 4 SI-4(14)'
+  family: Access Control (AC)
+  name: Identify and mitigate risk associated with unidentified wireless access points
+    connected to the network.
+AM.3.036:
+  description: 'References: CMMC'
+  family: Asset Management (AM)
+  name: Define procedures for the handling of CUI data.
+AM.4.226:
+  description: 'References: CMMC modification of Draft NIST SP 800-171B 3.4.3e; CIS
+    Controls v7.1 1.1, 1.2, 1.4, 1.5, 2.3, 2.4, 2.5; NIST CSF v1.1 ID.AM-1, ID.AM-2;
+    CERT RMM v1.2 ADM:SG1.SP1; NIST SP 800-53 Rev 4 CM-8'
+  family: Asset Management (AM)
+  name: Employ a capability to discover and identify systems with specific component
+    attributes (e.g., firmware level, OS type) within your inventory.
+AT.2.056:
+  description: 'References: NIST SP 800-171 Rev 1 3.2.1; CIS Controls v7.1 17.3; NIST
+    CSF v1.1 PR.AT-1, PR.AT-2, PR.AT-3, PR.AT-4, PR.AT-5; CERT RMM v1.2 OTA:SG1.SP1;
+    NIST SP 800-53 Rev 4 AT-2, AT-3'
+  family: Awareness and Training (AT)
+  name: 'Ensure that managers, system administrators, and users of organizational
+    systems are made aware of the security risks associated with their activities
+    and of the applicable policies, standards, and procedures related to the security
+    of those systems. '
+AT.2.057:
+  description: 'References: NIST SP 800-171 Rev 1 3.2.2; CIS Controls v7.1 17.5, 17.6,
+    17.7, 17.8, 17.9; NIST CSF v1.1 PR.AT-1, PR.AT-2, PR.AT-3, PR.AT-4, PR.AT-5; CERT
+    RMM v1.2 OTA:SG4.SP1; NIST SP 800-53 Rev 4 AT-2, AT-3'
+  family: Awareness and Training (AT)
+  name: 'Ensure that personnel are trained to carry out their assigned information
+    security-related duties and responsibilities. '
+AT.3.058:
+  description: 'References: NIST SP 800-171 Rev 1 3.2.3; NIST CSF v1.1 ID.RA-3; CERT
+    RMM v1.2 OTA:SG2.SP1; NIST SP 800-53 Rev 4 AT-2(2)'
+  family: Awareness and Training (AT)
+  name: Provide security awareness training on recognizing and reporting potential
+    indicators of insider threat.
+AT.4.059:
+  description: 'References: Draft NIST SP 800-171B 3.2.1e; CIS Controls v7.1 17.1,
+    17.2, 17.4; NIST CSF v1.1 PR.AT-1, PR.AT-2, PR.AT-3, PR.AT-4, PR.AT-5; CERT RMM
+    v1.2 OTA:SG2.SP1; NIST SP 800-53 Rev 4 AT-2'
+  family: Awareness and Training (AT)
+  name: Provide awareness training focused on recognizing and responding to threats
+    from social engineering, advanced persistent threat actors, breaches, and suspicious
+    behaviors; update the training at least annually or when there are significant
+    changes to the threat.
+AT.4.060:
+  description: 'References: CMMC modification of Draft NIST SP 800-171B 3.2.2e; CIS
+    Controls v7.1 17.1, 17.2, 17.4; NIST CSF v1.1 PR.AT-1, PR.AT-2, PR.AT-3, PR.AT-4,
+    PR.AT-5; CERT RMM v1.2 OTA:SG3.SP1, OTA:SG3.SP2; NIST SP 800-53 Rev 4 AT-2(1)'
+  family: Awareness and Training (AT)
+  name: Include practical exercises in awareness training that are aligned with current
+    threat scenarios and provide feedback to individuals involved in the training.
+AU.2.041:
+  description: 'References: NIST SP 800-171 Rev 1 3.3.2; CIS Controls v7.1 16.8, 16.9;
+    NIST CSF v1.1 DE.CM-1, DE.CM-3, DE.CM-7; CERT RMM v1.2 MON:SG1.SP3; NIST SP 800-53
+    Rev 4 AU-2, AU-3, AU-3(1), AU-6, AU-11, AU-12'
+  family: Audit and Accountability (AU)
+  name: Ensure that the actions of individual system users can be uniquely traced
+    to those users so they can be held accountable for their actions.
+AU.2.042:
+  description: 'References: NIST SP 800-171 Rev 1 3.3.1; CIS Controls v7.1 6.2; NIST
+    CSF v1.1. DE.CM-1, DE.CM-3, DE.CM-7; CERT RMM v1.2 MON:SG2.SP3; NIST SP 800-53
+    Rev 4 AU-2, AU-3, AU-3(1), AU-6, AU-11, AU-12'
+  family: Audit and Accountability (AU)
+  name: 'Create and retain system audit logs and records to the extent needed to enable
+    the monitoring, analysis, investigation, and reporting of unlawful or unauthorized
+    system activity. '
+AU.2.043:
+  description: 'References: NIST SP 800-171 Rev 1 3.3.7; CIS Controls v7.1 6.1; NIST
+    CSF v1.1 PR.PT-1; NIST SP 800-53 Rev 4 AU-8, AU-8(1)'
+  family: Audit and Accountability (AU)
+  name: Provide a system capability that compares and synchronizes internal system
+    clocks with an authoritative source to generate time stamps for audit records.
+AU.2.044:
+  description: 'References: CMMC; CIS Controls v7.1 6.7; NIST CSF v1.1 PR.PT-1; CERT
+    RMM v1.2 COMP:SG3.SP1; NIST SP 800-53 Rev 4 AU-6'
+  family: Audit and Accountability (AU)
+  name: 'Review audit logs. '
+AU.3.045:
+  description: 'References: NIST SP 800-171 Rev 1 3.3.3; CIS Controls v7.1 6.7; CERT
+    RMM v1.2 IMC:SG2.SP2; NIST SP 800-53 Rev 4 AU-2(3)'
+  family: Audit and Accountability (AU)
+  name: Review and update logged events.
+AU.3.046:
+  description: 'References: NIST SP 800-171 Rev 1 3.3.4; CIS Controls v7.1 6.7; NIST
+    SP 800-53 Rev 4 AU-5'
+  family: Audit and Accountability (AU)
+  name: 'Alert in the event of an audit logging process failure. '
+AU.3.048:
+  description: 'References: CMMC; CIS Controls v7.1 6.5; CERT RMM v1.2 COMP:SG3.SP1;
+    NIST SP 800-53 Rev 4 AU-6(4)'
+  family: Audit and Accountability (AU)
+  name: Collect audit information (e.g., logs) into one or more central repositories.
+AU.3.049:
+  description: 'References: NIST SP 800-171 Rev 1 3.3.8 ; CERT RMM v1.2 MON:SG2.SP3;
+    NIST SP 800-53 Rev 4 AU-6(7), AU-9'
+  family: Audit and Accountability (AU)
+  name: "Protect audit information\_and audit logging tools from unauthorized access,\
+    \ modification, and deletion."
+AU.3.050:
+  description: 'References: NIST SP 800-171 Rev 1 3.3.9; CERT RMM v1.2 MON:SG2.SP2;
+    NIST SP 800-53 Rev 4 AU-6(7), AU-9(4)'
+  family: Audit and Accountability (AU)
+  name: "Limit management of audit logging functionality to a subset of privileged\
+    \ users.\_"
+AU.3.051:
+  description: 'References: NIST SP 800-171 Rev 1 3.3.5; CIS Controls v7.1 6.6, 6.7;
+    NIST CSF v1.1 DE.AE-3; CERT RMM v1.2 COMP: SG3.SP1; NIST SP 800-53 Rev 4 AU-6(3)'
+  family: Audit and Accountability (AU)
+  name: Correlate audit record review, analysis, and reporting processes for investigation
+    and response to indications of unlawful, unauthorized, suspicious, or unusual
+    activity.
+AU.3.052:
+  description: 'References: NIST SP 800-171 Rev 1 3.3.6; NIST CSF v1.1 RS.AN-3; CERT
+    RMM v1.2 COMP:SG3.SP2; NIST SP 800-53 Rev 4 AU-7 '
+  family: Audit and Accountability (AU)
+  name: Provide audit record reduction and report generation to support on-demand
+    analysis and reporting.
+AU.4.053:
+  description: 'References: CMMC; CIS Controls v7.1 6.6; NIST CSF v1.1 DE.AE-3; NIST
+    SP 800-53 Rev 4 SI-4(2) '
+  family: Audit and Accountability (AU)
+  name: Automate analysis of audit logs to identify and act on critical indicators
+    (TTPs) and/or organizationally defined suspicious activity.
+AU.4.054:
+  description: 'References: CMMC; NIST CSF v1.1 PR.PT-1; NIST SP 800-53 Rev 4 RA-5(6),
+    RA-5(8), RA-5(10)'
+  family: Audit and Accountability (AU)
+  name: Review audit information for broad activity in addition to per-machine activity.
+AU.5.055:
+  description: 'References: CMMC; CIS Controls v7.1 6.2; NIST SP 800-53 Rev 4 AU-12'
+  family: Audit and Accountability (AU)
+  name: Identify assets not reporting audit logs and assure appropriate organizationally
+    defined systems are logging.
+CA.2.157:
+  description: 'References: NIST SP 800-171 Rev 1 3.12.4; NIST CSF v1.1 PR.IP-7; NIST
+    SP 800-53 Rev 4 PL-2'
+  family: Security Assessment (CA)
+  name: 'Develop, document, and periodically update system security plans that describe
+    system boundaries, system environments of operation, how security requirements
+    are implemented, and the relationships with or connections to other systems. '
+CA.2.158:
+  description: 'References: NIST SP 800-171 Rev 1 3.12.1; NIST CSF v1.1 DE.DP-3; NIST
+    SP 800-53 Rev 4 CA-2'
+  family: Security Assessment (CA)
+  name: "Periodically assess the security controls in organizational systems to determine\
+    \ if the controls are effective in their application.\_"
+CA.2.159:
+  description: 'References: NIST SP 800-171 Rev 1 3.12.2; CERT RMM v1.2 RISK:SG5.SP1;
+    NIST SP 800-53 Rev 4 CA-5'
+  family: Security Assessment (CA)
+  name: Develop and implement plans of action designed to correct deficiencies and
+    reduce or eliminate vulnerabilities in organizational systems.
+CA.3.161:
+  description: 'References: NIST SP 800-171 Rev 1 3.12.3; NIST CSF v1.1 PR.IP-7, DE.DP-5;
+    CERT RMM v1.2 MON:SG1.SP1; NIST SP 800-53 Rev 4 CA-7'
+  family: Security Assessment (CA)
+  name: "Monitor security controls on an ongoing basis to ensure the continued effectiveness\
+    \ of the controls.\_"
+CA.3.162:
+  description: 'References: CMMC; CIS Controls v7.1 18.1, 18.2'
+  family: Security Assessment (CA)
+  name: Employ a security assessment of enterprise software that has been developed
+    internally, for internal use, and that has been organizationally defined as an
+    area of risk.
+CA.4.163:
+  description: 'References: NIST CSF v1.1 ID.RM-1, RS.IM-1, RS.IM-2, RC.IM-1, and
+    RC.IM-2; NIST SP 800-53 Rev 4 PL-1'
+  family: Security Assessment (CA)
+  name: 'Create, maintain, and leverage a security strategy and roadmap for organizational
+    cybersecurity improvement. '
+CA.4.164:
+  description: 'References: CMMC modification of Draft NIST SP 800-171B 3.12.1e; CIS
+    Controls v7.1 20.2; NIST SP 800-53 Rev 4 CA-8'
+  family: Security Assessment (CA)
+  name: 'Conduct penetration testing periodically, leveraging automated scanning tools
+    and ad hoc tests using human experts. '
+CA.4.227:
+  description: 'References: CMMC; CIS Controls v7.1 20.3; NIST SP 800-53 Rev 4 CA-8(2)'
+  family: Security Assessment (CA)
+  name: Periodically perform red teaming against organizational assets in order to
+    validate defensive capabilities.
+CM.2.061:
+  description: 'References: NIST SP 800-171 Rev 1 3.4.1; CIS Controls v7.1 1.4, 1.5,
+    2.1, 2.4, 5.1; NIST CSF v1.1 ID.AM-1, ID.AM-2, PR.DS-3, PR.DS-7, PR.IP-1, DE.AE-1;
+    CERT RMM v1.2 KIM:SG5.SP2; NIST SP 800-53 Rev 4 CM-2, CM-6, CM-8, CM-8(1); UK
+    NCSC Cyber Essentials'
+  family: Configuration Management (CM)
+  name: Establish and maintain baseline configurations and inventories of organizational
+    systems (including hardware, software, firmware, and documentation) throughout
+    the respective system development life cycles.
+CM.2.062:
+  description: 'References: NIST SP 800-171 Rev 1 3.4.6; NIST CSF v1.1 PR.IP-1, PR.PT-3;
+    CERT RMM v1.2 TM:SG2.SP2; NIST SP 800-53 Rev 4 CM-7; UK NCSC Cyber Essentials '
+  family: Configuration Management (CM)
+  name: 'Employ the principle of least functionality by configuring organizational
+    systems to provide only essential capabilities. '
+CM.2.063:
+  description: 'References: NIST SP 800-171 Rev 1 3.4.9; CIS Controls v7.1 2.1, 2.2,
+    2.6; NIST CSF v1.1 DE.CM-3; CERT RMM v1.2 MON:SG2.SP3; NIST SP 800-53 Rev 4 CM-11'
+  family: Configuration Management (CM)
+  name: Control and monitor user-installed software.
+CM.2.064:
+  description: 'References: NIST SP 800-171 Rev 1 3.4.2; CIS Controls v7.1 1.4, 1.5,
+    2.1, 2.4, 5.1; NIST CSF v1.1 ID.AM-1, ID.AM-2, PR.DS-3, PR.DS-7, PR.IP-1, DE.AE-1;
+    CERT RMM v1.2 TM:SG2.SP2; NIST SP 800-53 Rev 4 CM-2, CM-6, CM-8, CM-8(1); UK NCSC
+    Cyber Essentials'
+  family: Configuration Management (CM)
+  name: Establish and enforce security configuration settings for information technology
+    products employed in organizational systems.
+CM.2.065:
+  description: 'References: NIST SP 800-171 Rev 1 3.4.3; NIST CSF v1.1 PR.IP-1, PR.IP-3;
+    CERT RMM v1.2 KIM:SG5.SP2; NIST SP 800-53 Rev 4 CM-3; AU ACSC Essential Eight'
+  family: Configuration Management (CM)
+  name: 'Track, review, approve, or disapprove, and log changes to organizational
+    systems. '
+CM.2.066:
+  description: 'References: NIST SP 800-171 Rev 1 3.4.4; NIST CSF v1.1 PR.IP-3; NIST
+    SP 800-53 Rev 4 CM-4'
+  family: Configuration Management (CM)
+  name: 'Analyze the security impact of changes prior to implementation. '
+CM.3.067:
+  description: 'References: NIST SP 800-171 Rev 1 3.4.5; CIS Controls v7.1 2.5, 2.7,
+    2.8, 2.9, 4.3, 11.1, 11.3, 11.7; NIST CSF v1.1 PR.IP-1; CERT RMM v1.2 TM:SG4.SP1;
+    NIST SP 800-53 Rev 4 CM-5; UK NCSC Cyber Essentials'
+  family: Configuration Management (CM)
+  name: Define, document, approve, and enforce physical and logical access restrictions
+    associated with changes to organizational systems.
+CM.3.068:
+  description: 'References: NIST SP 800-171 Rev 1 3.4.7; CIS Controls v7.1 9.2, 9.4,
+    12.4; NIST CSF v1.1 PR.IP-1, PR.PT-3; CERT RMM v1.2 TM:SG2.SP2; NIST SP 800-53
+    Rev 4 CM-7(1), CM-7(2); UK NCSC Cyber Essentials'
+  family: Configuration Management (CM)
+  name: 'Restrict, disable, or prevent the use of nonessential programs, functions,
+    ports, protocols, and services. '
+CM.3.069:
+  description: 'References: NIST SP 800-171 Rev 1 3.4.8; CIS Controls v7.1 2.1, 2.2,
+    2.6, 2.7, 2.8, 2.9; NIST CSF v1.1 PR.PT-3; CERT RMM v1.2 TM:SG2.SP2; NIST SP 800-53
+    Rev 4 CM-7(4), CM-7(5); UK NCSC Cyber Essentials'
+  family: Configuration Management (CM)
+  name: 'Apply deny-by-exception (blacklisting) policy to prevent the use of unauthorized
+    software or deny-all, permit-by-exception (whitelisting) policy to allow the execution
+    of authorized software. '
+CM.4.073:
+  description: 'References: CMMC modification of NIST SP 800-171 3.4.8; CIS Controls
+    v7.1 2.1, 2.2, 2.6, 2.7, 2.8, 2.9; NIST CSF v1.1 PR.PT-3; CERT RMM v1.2 TM:SG2.SP2;
+    NIST SP 800-53 Rev 4 CM-7(4), CM-7(5)'
+  family: Configuration Management (CM)
+  name: Employ application whitelisting and an application vetting process for systems
+    identified by the organization.
+CM.5.074:
+  description: 'References: CMMC modification of Draft NIST SP 800-171B 3.14.1e; CIS
+    Controls v7.1 2.10; NIST CSF v1.1 PR.DS-6, PR.DS-8, PR.IP-2; CERT RMM v1.2 TM:SG2.SP2;
+    NIST SP 800-53 Rev 4  SI-7(6), SI-7(9), SI-7(10), SA-17'
+  family: Configuration Management (CM)
+  name: Verify the integrity and correctness of security critical or essential software
+    as defined by the organization (e.g., roots of trust, formal verification, or
+    cryptographic signatures).
+IA.1.076:
+  description: 'References: FAR Clause 52.204-21 b.1.v; NIST SP 800-171 Rev 1 3.5.1;
+    CIS Controls v7.1 4.2, 4.3, 16.8, 16.9; NIST CSF v1.1 PR.AC-1, PR.AC-6, PR.AC-7;
+    CERT RMM v1.2 ID:SG1.SP1; NIST SP 800-53 Rev 4 IA-2, IA-3, IA-5'
+  family: Identification and Authentication (IA)
+  name: Identify information system users, processes acting on behalf of users, or
+    devices.
+IA.1.077:
+  description: 'References: FAR Clause 52.204-21 b.1.vi; NIST SP 800-171 Rev 1 3.5.2;
+    CIS Controls v7.1 4.2, 4.3, 16.8, 16.9; NIST CSF v1.1 PR.AC-1, PR.AC-6, PR.AC-7;
+    CERT RMM v1.2 TM:SG4.SP1; NIST SP 800-53 Rev 4 IA-2, IA-3, IA-5; UK NCSC Cyber
+    Essentials'
+  family: Identification and Authentication (IA)
+  name: Authenticate (or verify) the identities of those users, processes, or devices,
+    as a prerequisite to allowing access to organizational information systems.
+IA.2.078:
+  description: 'References: NIST SP 800-171 Rev 1 3.5.7; CIS Controls v7.1 4.2, 4.4;
+    NIST CSF v1.1 PR.AC-1, PR.AC-6, PR.AC-7; NIST SP 800-53 Rev 4 IA-5(1); UK NCSC
+    Cyber Essentials'
+  family: Identification and Authentication (IA)
+  name: Enforce a minimum password complexity and change of characters when new passwords
+    are created.
+IA.2.079:
+  description: 'References: NIST SP 800-171 Rev 1 3.5.8; CIS Controls v7.1 4.2, 4.4;
+    NIST CSF v1.1 PR.AC-1, PR.AC-6, PR.AC-7; NIST SP 800-53 Rev 4 IA-5(1)'
+  family: Identification and Authentication (IA)
+  name: Prohibit password reuse for a specified number of generations.
+IA.2.080:
+  description: 'References: NIST SP 800-171 Rev 1 3.5.9; NIST CSF v1.1 PR.AC-1, PR.AC-6,
+    PR.AC-7; NIST SP 800-53 Rev 4 IA-5(1)'
+  family: Identification and Authentication (IA)
+  name: 'Allow temporary password use for system logons with an immediate change to
+    a permanent password. '
+IA.2.081:
+  description: 'References: NIST SP 800-171 Rev 1 3.5.10; CIS Controls v7.1 16.4,
+    16.5; NIST CSF v1.1 PR.AC-1, PR.AC-6, PR.AC-7; CERT RMM v1.2 KIM:SG4.SP1; NIST
+    SP 800-53 Rev 4 IA-5(1)'
+  family: Identification and Authentication (IA)
+  name: 'Store and transmit only cryptographically-protected passwords. '
+IA.2.082:
+  description: 'References: NIST SP 800-171 Rev 1 3.5.11; NIST CSF v1.1 PR.AC-1; NIST
+    SP 800-53 Rev 4 IA-6'
+  family: Identification and Authentication (IA)
+  name: 'Obscure feedback of authentication information. '
+IA.3.083:
+  description: 'References: NIST SP 800-171 Rev 1 3.5.3; CIS Controls v7.1 4.5, 11.5,
+    12.11; NIST CSF v1.1 PR.AC-1, PR.AC-6, PR.AC-7; CERT RMM v1.2 TM:SG4.SP1; NIST
+    SP 800-53 Rev 4 IA-2(1), IA-2(2), IA-2(3); AU ACSC Essential Eight'
+  family: Identification and Authentication (IA)
+  name: 'Use multifactor authentication for local and network access to privileged
+    accounts and for network access to non-privileged accounts. '
+IA.3.084:
+  description: 'References: NIST SP 800-171 Rev 1 3.5.4; NIST CSF v1.1 PR.AC-1, PR.AC-6,
+    PR.AC-7; NIST SP 800-53 Rev 4 IA-2(8), IA-2(9)'
+  family: Identification and Authentication (IA)
+  name: Employ replay-resistant authentication mechanisms for network access to privileged
+    and non-privileged accounts.
+IA.3.085:
+  description: 'References: NIST SP 800-171 Rev 1 3.5.5; CIS Controls v7.1 16.7, 16.10,
+    16.12; NIST CSF v1.1 PR.AC-1, PR.AC-6, PR.AC-7; NIST SP 800-53 Rev 4 IA-4'
+  family: Identification and Authentication (IA)
+  name: 'Prevent the reuse of identifiers for a defined period. '
+IA.3.086:
+  description: 'References: NIST SP 800-171 Rev 1 3.5.6; CIS Controls v7.1 16.9, 16.10,
+    16.11; NIST CSF v1.1 PR.AC-1, PR.AC-6, PR.AC-7; NIST SP 800-53 Rev 4 IA-4'
+  family: Identification and Authentication (IA)
+  name: 'Disable identifiers after a defined period of inactivity. '
+IR.2.092:
+  description: 'References: NIST SP 800-171 Rev 1 3.6.1; NIST CSF v1.1. RS.RP-1; CERT
+    RMM v1.2 IMC:SG1.SP1; NIST SP 800-53 Rev 4 IR-2, IR-4'
+  family: Incident Response (IR)
+  name: Establish an operational incident-handling capability for organizational systems
+    that includes preparation, detection, analysis, containment, recovery, and user
+    response activities.
+IR.2.093:
+  description: 'References: CIS Controls v7.1 19.4; NIST CSF v1.1 DE.CM-1, DE.CM-2,
+    DE.CM-3, RS.CO-2; CERT RMM v1.2 IMC:SG2.SP1; NIST SP 800-53 Rev 4 IR-6'
+  family: Incident Response (IR)
+  name: 'Detect and report events. '
+IR.2.094:
+  description: 'References: CERT RMM v1.2 IMC:SG2.SP4; NIST SP 800-53 Rev 4 IR-4(3)'
+  family: Incident Response (IR)
+  name: Analyze and triage events to support event resolution and incident declaration.
+IR.2.096:
+  description: 'References: CIS Controls v7.1 19.1; NIST CSF v1.1 RS.RP-1; CERT RMM
+    v1.2 IMC:SG4.SP2; NIST SP 800-53 Rev 4 IR-4'
+  family: Incident Response (IR)
+  name: Develop and implement responses to declared incidents according to pre-defined
+    procedures.
+IR.2.097:
+  description: 'References: NIST CSF v1.1 DE.AE-2; CERT RMM v1.2 IMC:SG5.SP1; NIST
+    SP 800-53 Rev 4 AU-2'
+  family: Incident Response (IR)
+  name: 'Perform root cause analysis on incidents to determine underlying causes. '
+IR.3.098:
+  description: 'References: NIST SP 800-171 Rev 1 3.6.2; CIS Controls v7.1 19.4; NIST
+    CSF v1.1 RS.CO-2, RS.CO-3; CERT RMM v1.2 IMC:SG2.SP2; NIST SP 800-53 Rev 4 IR-6,
+    IR-7'
+  family: Incident Response (IR)
+  name: Track, document, and report incidents to designated officials and/or authorities
+    both internal and external to the organization.
+IR.3.099:
+  description: 'References: NIST SP 800-171 Rev 1 3.6.3; CIS Controls v7.1 19.7; NIST
+    CSF v1.1 DE.DP-3; NIST SP 800-53 Rev 4 IR-3'
+  family: Incident Response (IR)
+  name: Test the organizational incident response capability.
+IR.4.100:
+  description: 'References: CMMC'
+  family: Incident Response (IR)
+  name: Use knowledge of attacker tactics, techniques, and procedures in incident
+    response planning and execution.
+IR.4.101:
+  description: 'References: CMMC modification of Draft NIST SP 800-171B 3.6.1e'
+  family: Incident Response (IR)
+  name: Establish and maintain a security operations center capability that facilitates
+    a 24/7 response capability.
+IR.5.102:
+  description: 'References: CMMC; NIST SP 800-53 Rev 4 IR-4(1)'
+  family: Incident Response (IR)
+  name: Use a combination of manual and automated, real-time responses to anomalous
+    activities that match incident patterns.
+IR.5.106:
+  description: 'References: CMMC; NIST CSF v1.1 RS.AM-3; NIST SP 800-53 Rev 4 AU-12'
+  family: Incident Response (IR)
+  name: In response to cyber incidents, utilize forensic data gathering across impacted
+    systems, ensuring the secure transfer and protection of forensic data.
+IR.5.108:
+  description: 'References: CMMC modification of Draft NIST SP 800-171B 3.6.2e'
+  family: Incident Response (IR)
+  name: 'Establish and maintain a cyber incident response team that can investigate
+    an issue physically or virtually at any location within 24 hours. '
+IR.5.110:
+  description: 'References: CMMC; CIS Controls v7.1 19.7'
+  family: Incident Response (IR)
+  name: Perform unannounced operational exercises to demonstrate technical and procedural
+    responses.
+MA.2.111:
+  description: 'References: NIST SP 800-171 Rev 1 3.7.1; NIST CSF v1.1 PR.MA-1; CERT
+    RMM v1.2 TM:SG5.SP2; NIST SP 800-53 Rev 4 MA-2'
+  family: Maintenance (MA)
+  name: Perform maintenance on organizational systems.
+MA.2.112:
+  description: 'References: NIST SP 800-171 Rev 1 3.7.2; NIST CSF v1.2 PR.MA-1; CERT
+    RMM v1.2 TM:SG5.SP2; NIST SP 800-53 Rev 4 MA-3'
+  family: Maintenance (MA)
+  name: Provide controls on the tools, techniques, mechanisms, and personnel used
+    to conduct system maintenance.
+MA.2.113:
+  description: 'References: NIST SP 800-171 Rev 1 3.7.5; NIST CSF v1.1 PR.MA-2; CERT
+    RMM v1.2 TM:SG4.SP1; NIST SP 800-53 Rev 4 MA-4'
+  family: Maintenance (MA)
+  name: Require multifactor authentication to establish nonlocal maintenance sessions
+    via external network connections and terminate such connections when nonlocal
+    maintenance is complete.
+MA.2.114:
+  description: 'References: NIST SP 800-171 Rev 1 3.7.6; CERT RMM v1.2 TM:SG5.SP2;
+    NIST SP 800-53 Rev 4 MA-5'
+  family: Maintenance (MA)
+  name: 'Supervise the maintenance activities of personnel without required access
+    authorization. '
+MA.3.115:
+  description: 'References: NIST SP 800-171 Rev 1 3.7.3; CERT RMM v1.2 TM:SG5.SP2;
+    NIST SP 800-53 Rev 4 MA-2'
+  family: Maintenance (MA)
+  name: 'Ensure equipment removed for off-site maintenance is sanitized of any CUI. '
+MA.3.116:
+  description: 'References: NIST SP 800-171 Rev 1 3.7.4; NIST SP 800-53 Rev 4 MA-3(2)'
+  family: Maintenance (MA)
+  name: 'Check media containing diagnostic and test programs for malicious code before
+    the media are used in organizational systems. '
+MP.1.118:
+  description: 'References: FAR Clause 52.204-21 b.1.vii; NIST SP 800-171 Rev 1 3.8.3;
+    NIST CSF v1.1 PR.DS-3; CERT RMM v1.2 KIM:SG4.SP3; NIST SP 800-53 Rev 4 MP-6'
+  family: Media Protection (MP)
+  name: Sanitize or destroy information system media containing Federal Contract Information
+    before disposal or release for reuse.
+MP.2.119:
+  description: 'References: NIST SP 800-171 Rev 1 3.8.1; NIST CSF v1.1 PR.PT-2; CERT
+    RMM v1.2 KIM:SG2.SP2; NIST SP 800-53 Rev 4 MP-4'
+  family: Media Protection (MP)
+  name: 'Protect (i.e., physically control and securely store) system media containing
+    CUI, both paper and digital. '
+MP.2.120:
+  description: 'References: NIST SP 800-171 Rev 1 3.8.2; CIS Controls v7.1 14.6; NIST
+    CSF v1.1 PR.PT-2; CERT RMM v1.2 MON:SG2.SP4; NIST SP 800-53 Rev 4 MP-2'
+  family: Media Protection (MP)
+  name: Limit access to CUI on system media to authorized users.
+MP.2.121:
+  description: 'References: NIST SP 800-171 Rev 1 3.8.7; CIS Controls v7.1 13.7, 13.8;
+    NIST CSF v1.1 PR.PT-2; CERT RMM v1.2 MON:SG2.SP4; NIST SP 800-53 Rev 4 MP-7'
+  family: Media Protection (MP)
+  name: Control the use of removable media on system components.
+MP.3.122:
+  description: 'References: NIST SP 800-171 Rev 1 3.8.4; NIST CSF v1.1 PR.PT-2; CERT
+    RMM v1.2 MON:SG2.SP4; NIST SP 800-53 Rev 4 MP-3'
+  family: Media Protection (MP)
+  name: Mark media with necessary CUI markings and distribution limitations.
+MP.3.123:
+  description: 'References: NIST SP 800-171 Rev 1 3.8.8; NIST CSF v1.1 PR.PT-2; CERT
+    RMM v1.2 MON:SG2.SP4; NIST SP 800-53 Rev 4 MP-7(1)'
+  family: Media Protection (MP)
+  name: Prohibit the use of portable storage devices when such devices have no identifiable
+    owner.
+MP.3.124:
+  description: 'References: NIST SP 800-171 Rev 1 3.8.5; NIST CSF v1.1 PR.PT-2; CERT
+    RMM v1.2 KIM:SG4.SP2; NIST SP 800-53 Rev 4 MP-5'
+  family: Media Protection (MP)
+  name: 'Control access to media containing CUI and maintain accountability for media
+    during transport outside of controlled areas. '
+MP.3.125:
+  description: 'References: NIST SP 800-171 Rev 1 3.8.6; CIS Controls v7.1 13.9; CERT
+    RMM v1.2 KIM:SG4.SP1; NIST SP 800-53 Rev 4 MP-5(4)'
+  family: Media Protection (MP)
+  name: 'Implement cryptographic mechanisms to protect the confidentiality of CUI
+    stored on digital media during transport unless otherwise protected by alternative
+    physical safeguards. '
+PE.1.131:
+  description: 'References: FAR Clause 52.204-21 b.1.viii; NIST SP 800-171 Rev 1 3.10.1;
+    NIST CSF v1.1 PR.AC-2; CERT RMM v1.2 KIM:SG4.SP2; NIST SP 800-53 Rev 4 PE-2'
+  family: Physical Protection (PE)
+  name: 'Limit physical access to organizational information systems, equipment, and
+    the respective operating environments to authorized individuals. '
+PE.1.132:
+  description: 'References: FAR Clause 52.204-21 Partial b.1.ix ; NIST SP 800-171
+    Rev 1 3.10.3; CERT RMM v1.2 AM:SG1.SP1; NIST SP 800-53 Rev 4 PE-3'
+  family: Physical Protection (PE)
+  name: 'Escort visitors and monitor visitor activity. '
+PE.1.133:
+  description: 'References: FAR Clause 52.204-21 Partial b.1.ix ; NIST SP 800-171
+    Rev 1 3.10.4; NIST SP 800-53 Rev 4 PE-3'
+  family: Physical Protection (PE)
+  name: Maintain audit logs of physical access.
+PE.1.134:
+  description: 'References: FAR Clause 52.204-21 Partial b.1.ix ; NIST SP 800-171
+    Rev 1 3.10.5; CERT RMM v1.2 KIM:SG4.SP2; NIST SP 800-53 Rev 4 PE-3'
+  family: Physical Protection (PE)
+  name: Control and manage physical access devices.
+PE.2.135:
+  description: 'References: NIST SP 800-171 Rev 1 3.10.2; NIST CSF v1.1 PR.AC-2; CERT
+    RMM v1.2 KIM:SG4.SP2; NIST SP 800-53 Rev 4 PE-6'
+  family: Physical Protection (PE)
+  name: Protect and monitor the physical facility and support infrastructure for organizational
+    systems.
+PE.3.136:
+  description: 'References: NIST SP 800-171 Rev 1 3.10.6; CERT RMM v1.2 EC:SG2.SP1;
+    NIST SP 800-53 Rev 4 PE-17'
+  family: Physical Protection (PE)
+  name: Enforce safeguarding measures for CUI at alternate work sites.
+PS.2.127:
+  description: 'References: NIST SP 800-171 Rev 1 3.9.1; CERT RMM v1.2 HRM:SG2.SP1;
+    NIST SP 800-53 Rev 4 PS-3'
+  family: Personnel Security (PS)
+  name: Screen individuals prior to authorizing access to organizational systems containing
+    CUI.
+PS.2.128:
+  description: 'References: NIST SP 800-171 Rev 1 3.9.2; NIST CSF v1.1 PR.AC-1; CERT
+    RMM v1.2 HRM:SG4.SP2; NIST SP 800-53 Rev 4 PS-4, PS-5'
+  family: Personnel Security (PS)
+  name: Ensure that organizational systems containing CUI are protected during and
+    after personnel actions such as terminations and transfers.
+RE.2.137:
+  description: 'References: CIS Controls v7.1 10.1, 10.3; NIST CSF v1.1 PR.IP-4; CERT
+    RMM v1.2 KIM:SG6.SP1; NIST 800-53 Rev 4 CP-9; AU ACSC Essential Eight'
+  family: Recovery (RE)
+  name: Regularly perform and test data backups.
+RE.2.138:
+  description: 'References: NIST SP 800-171 Rev 1 3.8.9; CERT RMM v1.2 MON:SG2.SP4;
+    NIST 800-53 Rev 4 CP-9'
+  family: Recovery (RE)
+  name: 'Protect the confidentiality of backup CUI at storage locations. '
+RE.3.139:
+  description: 'References: CIS Controls v7.1 10.1, 10.2, 10.5; CERT RMM v1.2 KIM:SG6.SP1;
+    NIST 800-53 Rev 4 CP-9, CP-9(3)'
+  family: Recovery (RE)
+  name: Regularly perform complete, comprehensive, and resilient data backups as organizationally
+    defined.
+RE.5.140:
+  description: 'References: CMMC; NIST CSF v1.1 PR.IP-9; CERT RMM v1.2 RRM:SG1.SP2;
+    NIST 800-53 Rev 4 CP-10'
+  family: Recovery (RE)
+  name: Ensure information processing facilities meet organizationally defined information
+    security continuity, redundancy, and availability requirements.
+RM.2.141:
+  description: 'References: NIST SP 800-171 Rev 1 3.11.1; NIST CSF v1.1 ID.RA-1, ID.RA-4,
+    DE.AE-4, RS.MI-3; CERT RMM v1.2 RISK:SG4; NIST SP 800-53 Rev 4 RA-3'
+  family: Risk Management (RM)
+  name: Periodically assess the risk to organizational operations (including mission,
+    functions, image, or reputation), organizational assets, and individuals, resulting
+    from the operation of organizational systems and the associated processing, storage,
+    or transmission of CUI.
+RM.2.142:
+  description: 'References: NIST SP 800-171 Rev 1 3.11.2; CIS Controls v7.1 3.1, 3.2;
+    NIST CSF v1.1 ID.RA-1; CERT RMM v1.2 VAR:SG2.SP2; NIST SP 800-53 Rev 4 RA-5'
+  family: Risk Management (RM)
+  name: "Scan for vulnerabilities in organizational systems and applications periodically\
+    \ and when new vulnerabilities affecting those systems and applications are identified.\_"
+RM.2.143:
+  description: 'References: NIST SP 800-171 Rev 1 3.11.3; CIS Controls v7.1 3.7; NIST
+    CSF v1.1 RS.MI-3; CERT RMM v1.2 VAR:SG3.SP1; NIST SP 800-53 Rev 4 RA-5'
+  family: Risk Management (RM)
+  name: Remediate vulnerabilities in accordance with risk assessments.
+RM.3.144:
+  description: 'References: NIST CSF v1.1 ID.RA-5; CERT RMM v1.2 RISK:SG3, RISK:SG4.SP3
+    ; NIST SP 800-53 Rev 4 RA-3'
+  family: Risk Management (RM)
+  name: Periodically perform risk assessments to identify and prioritize risks according
+    to the defined risk categories, risk sources, and risk measurement criteria.
+RM.3.146:
+  description: 'References: NIST CSF v1.1 ID.RA-6, ID.RM-1; CERT RMM v1.2 RISK:SG5.SP1;
+    NIST SP 800-53 Rev 4 PM-9'
+  family: Risk Management (RM)
+  name: Develop and implement risk mitigation plans.
+RM.3.147:
+  description: 'References: CMMC; CIS Controls v7.1 2.2; NIST SP 800-53 Rev 4 SA-22(1)'
+  family: Risk Management (RM)
+  name: Manage non-vendor-supported products (e.g., end of life) separately and restrict
+    as necessary to reduce risk.
+RM.4.148:
+  description: 'References: CMMC modification of Draft NIST SP 800-171B 3.11.7e; NIST
+    CSF v1.1 ID.SC-1, ID.SC-2; CERT RMM v1.2 EC:SG3.SP1, EC:SG3.SP2; NIST SP 800-53
+    Rev 4 SA-12'
+  family: Risk Management (RM)
+  name: Develop and update as required, a plan for managing supply chain risks associated
+    with the IT supply chain.
+RM.4.149:
+  description: 'References: CMMC; NIST CSF v1.1 DE.AE-2; CERT RMM v1.2 VAR:SG2.SP1'
+  family: Risk Management (RM)
+  name: Catalog and periodically update threat profiles and adversary TTPs.
+RM.4.150:
+  description: 'References: Draft NIST SP 800-171B 3.11.1e; NIST CSF v1.1 ID.RA-2,
+    ID.RA-3'
+  family: Risk Management (RM)
+  name: 'Employ threat intelligence to inform the development of the system and security
+    architectures, selection of security solutions, monitoring, threat hunting, and
+    response and recovery activities.    '
+RM.4.151:
+  description: 'References: CIS Controls v7.1 12.2; NIST CSF v1.1 DE.CM-7'
+  family: Risk Management (RM)
+  name: Perform scans for unauthorized ports available across perimeter network boundaries
+    over the organization's Internet network boundaries and other organizationally
+    defined boundaries.
+RM.5.152:
+  description: 'References: CMMC'
+  family: Risk Management (RM)
+  name: 'Utilize an exception process for non-whitelisted software that includes mitigation
+    techniques.  '
+RM.5.155:
+  description: 'References: CMMC modification of Draft NIST SP 800-171B 3.11.5e; CERT
+    RMM v1.2 RISK:SG6.SP1'
+  family: Risk Management (RM)
+  name: Analyze the effectiveness of security solutions at least annually to address
+    anticipated risk to the system and the organization based on current and accumulated
+    threat intelligence.
+SA.3.169:
+  description: 'References: CMMC; NIST CSF v1.1 ID.RA-2; NIST SP 800-53 Rev 4 PM-16'
+  family: Situational Awareness (SA)
+  name: Receive and respond to cyber threat intelligence from information sharing
+    forums and sources and communicate to stakeholders.
+SA.4.171:
+  description: 'References: Draft NIST SP 800-171B 3.11.2e; NIST CSF v1.1 DE.CM-1,
+    DE.CM-2, DE.CM-3, DE.CM-4, DE.CM-5, DE.CM-6, DE.CM.7, DE.CM-8; NIST SP 800-53
+    Rev 4 PM-16'
+  family: Situational Awareness (SA)
+  name: 'Establish and maintain a cyber threat hunting capability to search for indicators
+    of compromise in organizational systems and detect, track, and disrupt threats
+    that evade existing controls. '
+SA.4.173:
+  description: 'References: CMMC; NIST SP 800-53 Rev 4 SI-4(24)'
+  family: Situational Awareness (SA)
+  name: 'Design network and system security capabilities to leverage, integrate, and
+    share indicators of compromise. '
+SC.1.175:
+  description: 'References: FAR Clause 52.204-21 b.1.x; NIST SP 800-171 Rev 1 3.13.1;
+    NIST CSF v1.1 PR.PT-4; NIST SP 800-53 Rev 4 SC-7; UK NCSC Cyber Essentials'
+  family: System and Communications Protection (SC)
+  name: Monitor, control, and protect organizational communications (i.e., information
+    transmitted or received by organizational information systems) at the external
+    boundaries and key internal boundaries of the information systems.
+SC.1.176:
+  description: 'References: FAR Clause 52.204-21 b.1.xi; NIST SP 800-171 Rev 1 3.13.5;
+    CIS Controls v7.1 14.1; NIST CSF v1.1 PR.AC-5; NIST SP 800-53 Rev 4 SC-7; UK NCSC
+    Cyber Essentials'
+  family: System and Communications Protection (SC)
+  name: Implement subnetworks for publicly accessible system components that are physically
+    or logically separated from internal networks.
+SC.2.178:
+  description: 'References: NIST SP 800-171 Rev 1 3.13.12; NIST CSF v1.1 PR.AC-3;
+    NIST SP 800-53 Rev 4 SC-15'
+  family: System and Communications Protection (SC)
+  name: 'Prohibit remote activation of collaborative computing devices and provide
+    indication of devices in use to users present at the device. '
+SC.2.179:
+  description: 'References: CMMC ; CIS Controls v7.1 11.5'
+  family: System and Communications Protection (SC)
+  name: Use encrypted sessions for the management of network devices.
+SC.3.177:
+  description: 'References: NIST SP 800-171 Rev 1 3.13.11; CIS Controls v7.1 14.4,
+    14.8; NIST CSF v1.1 PR.DS-1, PR.DS-2; CERT RMM v1.2 KIM:SG4.SP1; NIST SP 800-53
+    Rev 4 SC-13'
+  family: System and Communications Protection (SC)
+  name: 'Employ FIPS-validated cryptography when used to protect the confidentiality
+    of CUI. '
+SC.3.180:
+  description: 'References: NIST SP 800-171 Rev 1 3.13.2; CIS Controls v7.1 5.1, 5.2,
+    5.4; NIST SP 800-53 Rev 4 SA-8'
+  family: System and Communications Protection (SC)
+  name: Employ architectural designs, software development techniques, and systems
+    engineering principles that promote effective information security within organizational
+    systems.
+SC.3.181:
+  description: 'References: NIST SP 800-171 Rev 1 3.13.3; CIS Controls v7.1 4.3; CERT
+    RMM v1.2 KIM:SG2.SP2; NIST SP 800-53 Rev 4 SC-2; AU ACSC Essential Eight'
+  family: System and Communications Protection (SC)
+  name: 'Separate user functionality from system management functionality. '
+SC.3.182:
+  description: 'References: NIST SP 800-171 Rev 1 3.13.4; NIST SP 800-53 Rev 4 SC-4'
+  family: System and Communications Protection (SC)
+  name: 'Prevent unauthorized and unintended information transfer via shared system
+    resources. '
+SC.3.183:
+  description: 'References: NIST SP 800-171 Rev 1 3.13.6; NIST SP 800-53 Rev 4 SC-7(5)'
+  family: System and Communications Protection (SC)
+  name: Deny network communications traffic by default and allow network communications
+    traffic by exception (i.e., deny all, permit by exception).
+SC.3.184:
+  description: 'References: NIST SP 800-171 Rev 1 3.13.7; CIS Controls v7.1 12.12;
+    NIST CSF v1.1 PR.AC-3; NIST SP 800-53 Rev 4 SC-7(7)'
+  family: System and Communications Protection (SC)
+  name: 'Prevent remote devices from simultaneously establishing non-remote connections
+    with organizational systems and communicating via some other connection to resources
+    in external networks (i.e., split tunneling). '
+SC.3.185:
+  description: 'References: NIST SP 800-171 Rev 1 3.13.8; NIST CSF v1.1 PR.AC-2; CERT
+    RMM v1.2 KIM:SG4.SP1; NIST SP 800-53 Rev 4 SC-8(1)'
+  family: System and Communications Protection (SC)
+  name: Implement cryptographic mechanisms to prevent unauthorized disclosure of CUI
+    during transmission unless otherwise protected by alternative physical safeguards.
+SC.3.186:
+  description: 'References: NIST SP 800-171 Rev 1 3.13.9; NIST SP 800-53 Rev 4 SC-10'
+  family: System and Communications Protection (SC)
+  name: 'Terminate network connections associated with communications sessions at
+    the end of the sessions or after a defined period of inactivity. '
+SC.3.187:
+  description: 'References: NIST SP 800-171 Rev 1 3.13.10; CERT RMM v1.2 KIM:SG4.SP1;
+    NIST SP 800-53 Rev 4 SC-12'
+  family: System and Communications Protection (SC)
+  name: 'Establish and manage cryptographic keys for cryptography employed in organizational
+    systems. '
+SC.3.188:
+  description: 'References: NIST SP 800-171 Rev 1 3.13.13; NIST CSF v1.1 DE.CM-5;
+    NIST SP 800-53 Rev 4 SC-18; AU ACSC Essential Eight'
+  family: System and Communications Protection (SC)
+  name: 'Control and monitor the use of mobile code. '
+SC.3.189:
+  description: 'References: NIST SP 800-171 Rev 1 3.13.14; NIST SP 800-53 Rev 4 SC-19'
+  family: System and Communications Protection (SC)
+  name: Control and monitor the use of Voice over Internet Protocol (VoIP) technologies.
+SC.3.190:
+  description: 'References: NIST SP 800-171 Rev 1 3.13.15; NIST SP 800-53 Rev 4 SC-23'
+  family: System and Communications Protection (SC)
+  name: Protect the authenticity of communications sessions.
+SC.3.191:
+  description: 'References: NIST SP 800-171 Rev 1 3.13.16; CIS Controls v7.1 14.8;
+    NIST CSF v1.1 PR.DS-1; NIST SP 800-53 Rev 4 SC-28'
+  family: System and Communications Protection (SC)
+  name: Protect the confidentiality of CUI at rest.
+SC.3.192:
+  description: 'References: CMMC; CIS Controls v7.1 7.7; NIST SP 800-53 Rev 4 SC-20'
+  family: System and Communications Protection (SC)
+  name: Implement Domain Name System (DNS) filtering services.
+SC.3.193:
+  description: 'References: CMMC'
+  family: System and Communications Protection (SC)
+  name: Implement a policy restricting the publication of CUI on externally owned,
+    publicly accessible websites (e.g., forums, LinkedIn, Facebook, Twitter).
+SC.4.197:
+  description: 'References: CMMC modification of Draft NIST SP 800-171B 3.13.4e; CIS
+    Controls v7.1 14.1; NIST CSF v1.1 PR.AC-5'
+  family: System and Communications Protection (SC)
+  name: Employ physical and logical isolation techniques in the system and security
+    architecture and/or where deemed appropriate by the organization.
+SC.4.199:
+  description: 'References: CMMC'
+  family: System and Communications Protection (SC)
+  name: 'Utilize threat intelligence to proactively block DNS requests from reaching
+    malicious domains. '
+SC.4.202:
+  description: 'References: CMMC; NIST SP 800-53 Rev 4 SC-44'
+  family: System and Communications Protection (SC)
+  name: 'Employ mechanisms to analyze executable code and scripts (e.g., sandbox)
+    traversing Internet network boundaries or other organizationally defined boundaries. '
+SC.4.228:
+  description: 'References: CMMC modification of NIST SP 800-171 Rev 1 3.13.2; CIS
+    Controls v7.1 11.7, 14.1; NIST CSF v1.1 PR.AC-5; NIST SP 800-53 Rev 4 SA-8'
+  family: System and Communications Protection (SC)
+  name: Isolate administration of organizationally defined high-value critical network
+    infrastructure components and servers.
+SC.4.229:
+  description: 'References: CMMC; CIS Controls v7.1 7.4'
+  family: System and Communications Protection (SC)
+  name: Utilize a URL categorization service and implement techniques to enforce URL
+    filtering of websites that are not approved by the organization.
+SC.5.198:
+  description: 'References: CIS Controls v7.1 12.5'
+  family: System and Communications Protection (SC)
+  name: Configure monitoring systems to record packets passing through the organization's
+    Internet network boundaries and other organizationally defined boundaries.
+SC.5.208:
+  description: 'References: CMMC'
+  family: System and Communications Protection (SC)
+  name: Employ organizationally defined and tailored boundary protections in addition
+    to commercially available solutions.
+SC.5.230:
+  description: 'References: CMMC; CIS Controls v7.1 9.2; NIST 800-53 Rev 4 SC-7(17)'
+  family: System and Communications Protection (SC)
+  name: Enforce port and protocol compliance.
+SI.1.210:
+  description: 'References: FAR Clause 52.204-21 b.1.xii; NIST SP 800-171 Rev 1 3.14.1;
+    NIST CSF v1.1 RS.CO-2, RS.MI-3; CERT RMM v1.2 VAR:SG2.SP2; NIST SP 800-53 Rev
+    4 SI-2; UK NCSC Cyber Essentials; AU ACSC Essential Eight'
+  family: System and Information Integrity (SI)
+  name: Identify, report, and correct information and information system flaws in
+    a timely manner.
+SI.1.211:
+  description: 'References: FAR Clause 52.204-21 b.1.xiii; NIST SP 800-171 Rev 1 3.14.2;
+    CIS Controls v7.1 8.1; NIST CSF v1.1 DE.CM-4; CERT RMM v1.2 VAR:SG3.SP1; NIST
+    SP 800-53 Rev 4 SI-3; AU ACSC Essential Eight'
+  family: System and Information Integrity (SI)
+  name: Provide protection from malicious code at appropriate locations within organizational
+    information systems.
+SI.1.212:
+  description: 'References: FAR Clause 52.204-21 b.1.xiv; NIST SP 800-171 Rev 1 3.14.4;
+    CIS Controls v7.1 8.2; NIST CSF v1.1 DE.CM-4; CERT RMM v1.2 VAR:SG3.SP1; NIST
+    SP 800-53 Rev 4 SI-3'
+  family: System and Information Integrity (SI)
+  name: Update malicious code protection mechanisms when new releases are available.
+SI.1.213:
+  description: 'References: FAR Clause 52.204-21 b.1.xv; NIST SP 800-171 Rev 1 3.14.5;
+    CIS Controls v7.1 8.4, 8.7; NIST CSF v1.1 DE.CM-4; CERT RMM v1.2 VAR:SG3.SP1;
+    NIST SP 800-53 Rev 4 SI-3'
+  family: System and Information Integrity (SI)
+  name: Perform periodic scans of the information system and real-time scans of files
+    from external sources as files are downloaded, opened, or executed.
+SI.2.214:
+  description: 'References: NIST SP 800-171 Rev 1 3.14.3; CIS Controls v7.1 6.5, 6.6;
+    NIST CSF v1.1 RS.AN-5; CERT RMM v1.2 IMC:SG2.SP1; NIST SP 800-53 Rev 4 SI-5'
+  family: System and Information Integrity (SI)
+  name: Monitor system security alerts and advisories and take action in response.
+SI.2.216:
+  description: 'References: NIST SP 800-171 Rev 1 3.14.6; CIS Controls v7.1 12.6;
+    NIST CSF v1.1 DE.CM-1; CERT RMM v1.2 MON:SG1.SP3; NIST SP 800-53 Rev 4 SI-4'
+  family: System and Information Integrity (SI)
+  name: Monitor organizational systems, including inbound and outbound communications
+    traffic, to detect attacks and indicators of potential attacks.
+SI.2.217:
+  description: 'References: NIST SP 800-171 Rev 1 3.14.7; NIST CSF v1.1 DE.CM-1, DE.CM-7;
+    CERT RMM v1.2 MON:SG1.SP3; NIST SP 800-53 Rev 4 SI-4'
+  family: System and Information Integrity (SI)
+  name: 'Identify unauthorized use of organizational systems. '
+SI.3.218:
+  description: 'References: CMMC; NIST SP 800-53 Rev 4 SI-8'
+  family: System and Information Integrity (SI)
+  name: Employ spam protection mechanisms at information system access entry and exit
+    points.
+SI.3.219:
+  description: 'References: CMMC; CIS Controls v7.1 7.8; NIST CSF v1.1 PR.DS-2; CERT
+    RMM v1.2 KIM:SG4.SP1; NIST SP 800-53 Rev 4 SC-8'
+  family: System and Information Integrity (SI)
+  name: Implement email forgery protections.
+SI.3.220:
+  description: 'References: CIS Controls v7.1 7.10; NIST SP 800-53 Rev 4 SC-44'
+  family: System and Information Integrity (SI)
+  name: Utilize sandboxing to detect or block potentially malicious email.
+SI.4.221:
+  description: 'References: Draft NIST SP 800-171B 3.14.6e; NIST CSF v1.1 ID.RA-2,
+    ID.RA-3'
+  family: System and Information Integrity (SI)
+  name: Use threat indicator information relevant to the information and systems being
+    protected and effective mitigations obtained from external organizations to inform
+    intrusion detection and threat hunting.
+SI.5.222:
+  description: 'References: CMMC'
+  family: System and Information Integrity (SI)
+  name: Analyze system behavior to detect and mitigate execution of normal system
+    commands and scripts that indicate malicious actions.
+SI.5.223:
+  description: 'References: Draft NIST SP 800-171B 3.14.2e; CIS Controls v7.1 13.3,
+    16.12, 16.13; NIST CSF v1.1 DE.CM-1, DE.CM-3; CERT RMM v1.2 MON:SG1.SP3; NIST
+    SP 800-53 Rev 4 SI-4'
+  family: System and Information Integrity (SI)
+  name: Monitor individuals and system components on an ongoing basis for anomalous
+    or suspicious behavior.
+name: CMMC-1.0

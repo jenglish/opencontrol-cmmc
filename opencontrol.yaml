@@ -1,0 +1,11 @@
+schema_version: "1.0.0"
+metadata:
+  description: "CMMC control catalog and profiles"
+  maintainers:
+  - jenglish@flightlab.com
+standards:
+  - ./CMMC-1.0.yaml
+certifications:
+  - ./CMMC-1.0-ML1.yaml
+  - ./CMMC-1.0-ML3.yaml
+  - ./CMMC-1.0-mapped.yaml
